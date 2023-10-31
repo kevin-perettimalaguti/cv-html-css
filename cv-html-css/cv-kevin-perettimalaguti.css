@@ -5,7 +5,7 @@ body {
   /* Taille du dégradé, 200% pour créer une animation de défilement */
   animation: gradientAnimation 15s linear infinite;
   /* Nom de l'animation, durée, type de transition, et répétition infinie */
-  text-align: center;
+  text-align: center;  
 }
 
 .centre {
@@ -187,4 +187,40 @@ h3 {
 
 li {
   list-style: none;
+}
+
+
+.cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease-out;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in;
+}
+
+a:hover {
+  color: #ff0000; /* Couleur du lien lorsqu'on survole */
+}
+
+a:hover .cursor {
+  transform: scale(1.5);
+  background-color: #00ff00; /* Couleur du curseur lorsqu'il est sur un lien */
+}
+
+img {
+  transition: transform 0.3s ease-out; /* Ajoute une transition douce au changement de taille */
+}
+
+img:hover {
+  transform: scale(1.2); /* Fait grossir l'image à 120% de sa taille d'origine */
 }
