@@ -1,0 +1,162 @@
+body 
+{
+    background: linear-gradient(to right, #ff6b6b, #4ecdc4); /* Couleurs du dégradé */
+    background-size: 200% 100%; /* Taille du dégradé, 200% pour créer une animation de défilement */
+    animation: gradientAnimation 8s linear infinite; /* Nom de l'animation, durée, type de transition, et répétition infinie */
+    text-align: center;
+}
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0%; /* Position initiale du dégradé au début de l'animation */
+    }
+    100% {
+      background-position: -100% 0%; /* Position finale du dégradé à la fin de l'animation, créant le défilement */
+    }
+}
+
+h3 
+{
+    color:rgb(223, 40, 196);
+}  
+
+.contact > p
+{
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+
+}
+
+.pro 
+{
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.etudes
+{
+    color: black;
+    font-family: monospace;
+    font-size: 14px;   
+}
+
+.hardskills 
+{
+    color: black;
+    font-family: monospace;
+    font-size: 14px;
+
+}
+
+.objectif > h2 
+{
+    color: black;
+    font-family: monospace;
+}
+
+.contact > b
+{
+    color:rgb(33, 183, 211);
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.objectif > p 
+{
+    font-family: monospace;
+    font-size: 16px;
+    font-style: italic;    
+}
+
+@keyframes colorChange1 {
+    0% {
+      color: blue; /* Bleu */
+    }
+    25% {
+      color: red; /* Rouge */
+    }
+    50% {
+      color: blue; /* Bleu */
+    }
+    75% {
+      color: red /* Rouge */
+    }
+    100% {
+      color: blue; /* Bleu */
+    }
+  }
+  
+  h1 {
+    animation: colorChange1 10s infinite; /* Nom de l'animation, durée, et répétition infinie */
+    text-align: center;
+  } 
+
+  
+  @keyframes colorChange2 
+  {
+    0% {
+      color: red; /* Rouge */
+    }
+    30% {
+      color: blue; /* Bleu */
+    }
+    60% {
+      color: red; /* Rouge */
+    }
+    85% {
+      color: blue; /* Bleu */
+    }
+    100% {
+      color: red; /* Rouge */
+    }
+  }
+  
+  h2 
+  {
+    animation: colorChange2 15s infinite; /* Nom de l'animation, durée, et répétition infinie */
+    margin-left: 0px;
+    padding-left: 0%;
+    font-family: monospace;
+  }
+
+  @keyframes colorChange3 
+  {
+    0% {
+      color: orange; /* Rouge */
+    }
+    25% {
+      color: olivedrab; /* Bleu */
+    }
+    50% {
+      color: orange; /* Rouge */
+    }
+    75% {
+      color:olivedrab; /* Bleu */
+    }
+    100% {
+      color: orange; /* Rouge */
+    }
+  }
+
+  h3 
+  {
+    animation: colorChange3 15s infinite; /* Nom de l'animation, durée, et répétition infinie */
+    font-family: monospace;
+  }
+
+  .etudes > p 
+  {
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+  .pro > p 
+  {
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+   
+  
