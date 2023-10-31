@@ -3,8 +3,14 @@ body
     background: linear-gradient(to right, #ff6b6b, #4ecdc4); /* Couleurs du dégradé */
     background-size: 200% 100%; /* Taille du dégradé, 200% pour créer une animation de défilement */
     animation: gradientAnimation 15s linear infinite; /* Nom de l'animation, durée, type de transition, et répétition infinie */
-    text-align: center;
+    text-align: center;    
 }
+.centre 
+{
+  margin: auto;
+  max-width: 1000px;
+}
+
   
   @keyframes gradientAnimation {
     0% {
@@ -162,6 +168,7 @@ h3
   {
     list-style: none;
   }
+  
 
    
   
